@@ -7,7 +7,7 @@ const Uxui = () => {
     return ( 
         <div className='uiux_div'>
             <img src={uiuximg} alt="" />
-            <p>UI / UX Designers & Developers</p>
+            <p className='puiux'>UI / UX Designers & Developers</p>
         </div>
      );
 }

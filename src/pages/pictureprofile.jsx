@@ -9,7 +9,7 @@ const Picprofile = () => {
             <img src={scene} alt="" />
             <div className='profilebottom'>
             <img src={picprofile} alt="" />
-            <p>Islam Ali</p>
+            <p className='ppic'>Islam Ali</p>
             </div>
         </div>
       );

@@ -6,7 +6,7 @@ background: #FFF;
 display: flex;
 flex-direction: column;
 gap: 5px;
-padding: 12px;
+padding: 15px 20px;
 box-sizing: border-box;
 }
 
@@ -30,6 +30,7 @@ font-weight: 400;
 line-height: normal;
 display: flex;
 gap: 2px;
+align-items: center;
 }
 
 .time img {
@@ -37,9 +38,28 @@ gap: 2px;
     height: 11px; 
 }
 
+.dot {
+    color: #888;
+}
+
 .scene {
     width: 685px;
 height: 433px;
-border-radius: 7px;
+border-radius: 20px;
 
+}
+
+.posttopwhole {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dots {
+    color: #000;
+font-family: Arial;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }

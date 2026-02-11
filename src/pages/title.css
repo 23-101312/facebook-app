@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
 }
-p {
+.ptitle {
     color: #000;
 font-family: Poppins;
 font-size: 16px;

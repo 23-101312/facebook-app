@@ -10,7 +10,7 @@ import Picprofile from './pictureprofile';
 import Middlemiddle from './middle';
 import Post from './post';
 import Personconfirm from './personcofirm';
-
+import Twitchcomponent from './twitch';
 
 const Home = () => {
     return (  
@@ -73,6 +73,12 @@ const Home = () => {
             <Personconfirm />
             </section>
             <Title />
+            <Twitchcomponent />
+            <Twitchcomponent />
+            <Twitchcomponent />
+            <Twitchcomponent />
+            <Twitchcomponent />
+            <Twitchcomponent />
             </aside>
 
         </div>
