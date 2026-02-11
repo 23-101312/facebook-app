@@ -1,0 +1,45 @@
+.postwhole {
+    width: 720px;
+    height: 503px; 
+    border-radius: 7px;
+background: #FFF;
+display: flex;
+flex-direction: column;
+gap: 5px;
+padding: 12px;
+box-sizing: border-box;
+}
+
+
+.posttop {
+display: flex;
+gap: 3px;
+}
+
+.postuser {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    color: #888;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+gap: 2px;
+}
+
+.time img {
+    width: 11px;
+    height: 11px; 
+}
+
+.scene {
+    width: 685px;
+height: 433px;
+border-radius: 7px;
+
+}

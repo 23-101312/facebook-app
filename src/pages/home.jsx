@@ -8,6 +8,7 @@ import Title from './title';
 import Uxui from './uiux';
 import Picprofile from './pictureprofile';
 import Middlemiddle from './middle';
+import Post from './post';
 
 
 const Home = () => {
@@ -57,8 +58,16 @@ const Home = () => {
 
             <Middlemiddle />
 
-
+            <section className='posts'>
+            <Post />
+            <Post />
+            <Post />
+            </section>
         </main>
+
+        <aside className='rightside'>
+            <Title />
+            </aside>
 
         </div>
        

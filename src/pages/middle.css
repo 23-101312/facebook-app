@@ -14,7 +14,7 @@ justify-content: space-between;
 .middletop {
     display: flex;
     gap: 8px;
-    border-bottom: #E4E6EB 1px;
+    border-bottom: 1px solid #E4E6EB;
     padding-bottom: 24px;
     box-sizing: border-box;
     width: 665px;
