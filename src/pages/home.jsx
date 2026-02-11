@@ -6,6 +6,7 @@ import Confirmbtn from './confirmbtn';
 import Watch from './watch';
 import Title from './title';
 import Uxui from './uiux';
+import Picprofile from './pictureprofile';
 
 
 const Home = () => {
@@ -21,9 +22,9 @@ const Home = () => {
             </nav>
         </header>
 
-<main>
+<div className='container'>
         
-        <section className='left_side'>
+        <aside className='left_side'>
         <Confirmbtn />
         <div className='watch_coloumn'>
         <Watch />
@@ -43,9 +44,19 @@ const Home = () => {
 
         </div>
         
-        </section>
+        </aside>
+
+        <main className='middle'>
+            <section className='middle_top'>
+        <Picprofile />
+        <Picprofile />
+        <Picprofile />
+        <Picprofile />
+            </section>
 
         </main>
+
+        </div>
        
         </>
     );
