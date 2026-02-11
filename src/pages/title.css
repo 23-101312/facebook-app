@@ -1,0 +1,22 @@
+.tile_part {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+span {
+    color: #1877F2;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
