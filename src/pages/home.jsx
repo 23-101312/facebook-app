@@ -7,6 +7,7 @@ import Watch from './watch';
 import Title from './title';
 import Uxui from './uiux';
 import Picprofile from './pictureprofile';
+import Middlemiddle from './middle';
 
 
 const Home = () => {
@@ -48,11 +49,14 @@ const Home = () => {
 
         <main className='middle'>
             <section className='middle_top'>
-        <Picprofile />
-        <Picprofile />
-        <Picprofile />
-        <Picprofile />
+                <Picprofile />
+                <Picprofile />
+                <Picprofile />
+                <Picprofile />
             </section>
+
+            <Middlemiddle />
+
 
         </main>
 
