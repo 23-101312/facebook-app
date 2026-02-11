@@ -1,0 +1,14 @@
+.uiux_div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.puiux {
+    color: #000;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

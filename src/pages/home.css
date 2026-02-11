@@ -1,0 +1,90 @@
+header {
+    width: 1440px;
+    height: 72px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    gap: 520px;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+.container {
+    display: flex;
+}
+
+.left_side {
+    padding: 35px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: left;
+    width: 345px;
+height: 1658px;
+background: #FFF;
+margin-top: 10px;
+    
+}
+
+.watch_coloumn {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 50px;
+    width: 320px;
+}
+
+.uiux_coloumn {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 50px;
+    width: 320px;   
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 20px;
+}
+
+.middle_top {
+    width: 1440px;
+height: 1732px;
+background: #ffffff;
+display: flex;
+gap: 10px;
+width: 720px;
+height: 282px;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+}
+
+.posts {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.rightside {
+    width: 332px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+

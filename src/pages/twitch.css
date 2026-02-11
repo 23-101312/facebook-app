@@ -1,0 +1,43 @@
+.twitch {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.twitch img {
+  width: 50px;
+height: 50px;
+}
+
+.twitchtext {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+h1 {
+  color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ptwitch {
+  color: #000;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.twitchspan {
+  color: #1877F2;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
