@@ -79,5 +79,12 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    gap: 10px;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 

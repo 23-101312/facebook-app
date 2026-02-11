@@ -9,6 +9,7 @@ import Uxui from './uiux';
 import Picprofile from './pictureprofile';
 import Middlemiddle from './middle';
 import Post from './post';
+import Personconfirm from './personcofirm';
 
 
 const Home = () => {
@@ -66,6 +67,11 @@ const Home = () => {
         </main>
 
         <aside className='rightside'>
+            <Title />
+            <section className='people'>
+            <Personconfirm />
+            <Personconfirm />
+            </section>
             <Title />
             </aside>
 

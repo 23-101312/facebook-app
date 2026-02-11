@@ -1,7 +1,7 @@
 import React from 'react';
 import './personconfirm.css'
 import Confirmbtn from './confirmbtn';
-import guyconfirm from "../assets/guy.png" 
+import guyconfirm from "../assets/guy.svg" 
 
 const Personconfirm = () => {
     return (  
@@ -15,7 +15,7 @@ const Personconfirm = () => {
             </div>
             <div className='confirm_bottom'>
             <Confirmbtn />
-        <button>Delete</button>
+        <button className='btn1'>Delete</button>
             </div>
         </div>
     );
